@@ -27,10 +27,16 @@ A regular life in the World of Emacs is full of learning, excitement and pure sa
    After the point when you manage to convince yourself in using Emacs in your workflow and after getting a bit comfortable with it, there are cheatsheets, detailed references that you can keep coming back to everyday.
 2. [Share your Emacs](02-daily-life/02-share-your-emacs.md)
    A stock Emacs transforms into *your Emacs* over a period of time due to its extensibility and customizable nature. One trend with Emacs users is to share your configurations with the community and it helps in unimaginable ways.
-3. [Give back to the community](02-daily-life/03-give-back-to-the-community.md)
-   Emacs has a package to do anything and everything. Just in case you find something that is not there already, you can create one yourself and contribute to the loving Emacs community.
+
+## [Give Back](03-give-back)
+
+Once you are comfortable enough in the World of Emacs, you should giving back to the community that helped you get started and get things done in a much more fun way than you used to do, for free.
+
+1. [Write your own extensions](03-give-back/01-write-your-own-extensions.md)
+   Emacs has a package to do anything and everything. Just in case you find something that is not there already, you can create one yourself and share it with the loving Emacs community.
+2. [Help others learn Emacs](03-give-back/02-help-others-learn.md)
+   May be when you think you have learnt enough, it is your turn to pass on the knowledge to others who are at the point where you used to be.
 
 ## Feedback
 
 I need your help making this guide a more seamless experience for getting into the *World of Emacs*.
-
