@@ -39,7 +39,7 @@ The major package archives for ELPA are:
 1. [gnu ELPA](http://elpa.gnu.org) is the default package repository for Emacs. It comes configured with Emacs.
 2. [melpa](http://melpa.org) requires authors to write their own packages and submit them through a strict set of guidelines a quality control. I have three packages on melpa currently.
 3. [melpa-stable](https://stable.melpa.org) is a more stable version of melpa and supposedly hosts release versions of packages on melpa that are known to be stable. All packages on melpa-stable are on melpa and not the other way around.
-4. [marmalade](https://marmalade-repo.org) follows a relaxed approach of submitting packages to the registry where there is no review before a package is submitted. I make sure all my packages are submitted to marmalade. Current I have [twelve](https://marmalade-repo.org) of them there.
+4. [marmalade](https://marmalade-repo.org) follows a relaxed approach of submitting packages to the registry where there is no review before a package is submitted. I make sure all my packages are submitted to marmalade. Current I have [twelve](https://marmalade-repo.org/profile/myTerminal) of them there.
 
 You can follow [https://www.emacswiki.org/emacs/ELPA](https://www.emacswiki.org/emacs/ELPA) for instructions on installing packages to your Emacs.
 
