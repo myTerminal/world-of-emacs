@@ -1,6 +1,6 @@
 # world-of-emacs
 
-A brief guide for getting into and through the World of Emacs [a work in progress]
+A brief guide for getting into and through the World of Emacs
 
 ## Background
 
