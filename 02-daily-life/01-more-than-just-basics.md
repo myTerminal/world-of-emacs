@@ -24,7 +24,7 @@ If you like reading detailed, lengthy manuals, you can also go through the [GNU 
 
 This one is [a noteworthy website](http://emacs.sexy) that has quite a lot of references to places where you can find information about Emacs.
 
-## Emacs packages
+## Emacs Packages
 
 As GNU describes, Emacs is an extensible self-documenting editor. There are thousands of packages that you can add to your configuration (and later write your own).
 
@@ -47,3 +47,9 @@ As there are almost infinite number of Emacs packages out there that reside not 
 
 If you are confident that you will not be overwhelmed, you can refer to [this list of a few most popular packages for Emacs](https://github.com/emacs-tw/awesome-emacs) at your own discretion. Remember: You have been warned, you will lose days of your life browsing through these packages.
 Let's say you went through the entire list of packages, just realize that it was just one list our of the many that you may find in the future.
+
+## Emacs Starter Kits
+
+If you think finding and installing the right packages for yourself is too much of work, there are a plenty of starter kits available that you can use right away.
+
+You can find a list [here](https://github.com/emacs-tw/awesome-emacs#starter-kit).
