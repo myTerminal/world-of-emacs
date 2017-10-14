@@ -2,7 +2,7 @@
 
 Learning Emacs can be overwhelming, especially at the start. Afterall, it is not just a text-editor to edit files!
 
-Emacs needs some patience and dedication at the start but when things start to sink in, one would soon realize that that initial time spent was well worth it.
+Emacs needs some patience and dedication at the start but when things start to sink in, one would soon realize that the initial time spent was well worth it.
 
 Remember: The start will be slow and within a couple of days, you could be fairly comfortable.
 
@@ -16,7 +16,7 @@ You will be presented with a long-running screen full of text with 'learn-as-you
 
 ## Emacs Guided Tour
 
-You can view the Emacs Guided Tour from the same screen where you started the previous tutorial. It is located on the next line.
+You can view the Emacs Guided Tour from the same screen where you started the previous tutorial. An option is located on the next line.
 
 This one opens up a web page in your web-browser. You can also visit it here: [https://www.gnu.org/software/emacs/tour](https://www.gnu.org/software/emacs/tour).
 
@@ -26,7 +26,7 @@ You'll be happy to see some colorful pictures after going through screens full o
 
 [ergoemacs.org](http://ergoemacs.org) is a not-so-pretty website that has a lot of useful information on Emacs.
 
-You can visit [http://ergoemacs.org/emacs/emacs.html](http://ergoemacs.org/emacs/emacs.html) for a 'practical' tutorial.
+You can also visit [http://ergoemacs.org/emacs/emacs.html](http://ergoemacs.org/emacs/emacs.html) for a 'practical' tutorial.
 
 ## Yet Another Emacs Tutorial
 
@@ -34,10 +34,10 @@ You can visit [http://ergoemacs.org/emacs/emacs.html](http://ergoemacs.org/emacs
 
 ## A Reference card
 
-Refer this [reference card](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf) along the way. Do not worry about learning everything single shortcut right away.
+Refer this [reference card](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf) along the way. Do not worry about learning every single shortcut right away.
 
 I like to print it and pin it at my desk at office.
 
-Also, consider using this cheatsheet, it's a good one with minimal basics.
+Also, consider using this cheatsheet. It's a good one with minimal basics.
 
 [![](http://emacs.sexy/img/How-to-Learn-Emacs-v2-Large.png)](http://emacs.sexy/img/How-to-Learn-Emacs-v2-Large.png)

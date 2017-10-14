@@ -1,10 +1,10 @@
 # Help Others Learn
 
-Once Emacs becomes a part of your daily workflow, you start to realize that you are getting more efficient in some of the daily tasks that you do on your computer. You feel like you're learning something everyday, growing with your ever-evolving Emacs configuration.
+Once Emacs becomes a part of your daily workflow, you start to realize that you are getting more efficient in some of the daily tasks that you do on your computer. You feel like you're learning something everyday, growing yourself along with your ever-evolving Emacs configuration.
 
-If you choose to share your configuration on GitHub, you see the number of commits increase with time and if you manage to publish a few packages of your own, you can probably find the number of stars on Github or the download count on the repository.
+If you choose to share your configuration on GitHub, you see the number of commits increase with time and if you manage to publish a few packages of your own, you can probably find the number of stars on GitHub or the download count on the repository.
 
-The next thing that you can do is to help others learn Emacs. There are various forms of training material available: posts and articles about tips and tricks and individual experiences with Emacs, GitHub projects containing documentation (like this one), websites specifically created to how content about Emacs, YouTube training videos, etc.
+The next thing that you can do is to help others learn Emacs. There are various forms of training material available: posts and articles about tips and tricks and individual experiences with Emacs, GitHub projects containing documentation (like this one), websites specifically created to host content about Emacs, YouTube training videos, etc.
 
 A very few of the available video series are listed below:
 

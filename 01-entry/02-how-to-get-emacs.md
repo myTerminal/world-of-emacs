@@ -1,6 +1,6 @@
 # How to Get Emacs?
 
-Emacs is available on all major operating systems: Windows, Macintosh and all possible Linux distributions.
+Emacs is available on all major operating systems: Windows, Macintosh and various Linux distributions.
 
 Here is my attempt to list down all possible ways to obtain Emacs.
 
@@ -8,7 +8,7 @@ Here is my attempt to list down all possible ways to obtain Emacs.
 
 On Windows, you can just download Emacs binary from [http://ftp.gnu.org/gnu/emacs/windows](http://ftp.gnu.org/gnu/emacs/windows) and place it in a directory on your disk.
 
-To run Emacs, you can execute the binary `bin\runemacs.exe`. You can create a shortcut to this file and place it to your Desktop if you like.
+To run Emacs, you can execute the binary `bin\runemacs.exe`. You can create a shortcut to this file and place it to your Desktop if you like and that goes with your preference.
 
 Optionally, you can add this location to your environment variable `PATH`, so that you will be able to start it from a Command Prompt window.
 
@@ -26,19 +26,19 @@ Or you can do it with [cask](https://caskroom.github.io).
 
     brew cask install emacs
 
-This 'favor' of Emacs runs within a Terminal windows and will not offer any of the graphical features.
+This 'flavor' of Emacs runs within a Terminal window and will not offer any graphical features.
 
 ### emacsformacosx
 
 You can download a '.dmg' file from [https://emacsformacosx.com](https://emacsformacosx.com). This method needs manual installation.
 
-I prefer this flavor as it behaves almost the same as the one available for Windows.
+I prefer this flavor as it behaves almost the same as the one available for Windows that I first started using.
 
 ### spacemacs
 
 [Spacemacs](http://spacemacs.org) is a polished community-driven Emacs distribution which combines the features of Emacs and [Vim](http://www.vim.org).
 
-The setup involves downloading Emacs and applying the configs over it to provide a more polished experience.
+The setup involves downloading Emacs and applying the spacemacs configs over it to provide a more polished experience.
 
 ### Aquamacs
 
@@ -70,5 +70,5 @@ On Fedora, it is as simple as a dnf command.
 
 ## Misc
 
-I am sure as vast a software Emacs is, there are a lot more ways to install it and it would be difficult to list all possible ways here.
+I am sure as vast a software Emacs is, there are a lot more ways to install it and it would be difficult to list all of those methods here.
 To learn about other ways of obtaining Emacs, refer to the [official website](https://www.gnu.org/software/emacs/download.html).

@@ -1,6 +1,6 @@
 ## Entry
 
-A typical entry to the World of Emacs follows a pattern where a non-user turns into a fan and unofficial promoter who alienates other bodies around by mentioning how they perform a specific task from within Emacs and make them leave the conversation at the least.
+A typical entry to the World of Emacs follows a pattern where a non-user turns into a fan and an unofficial promoter who alienates other bodies around by mentioning how they perform a specific task from within Emacs and make them leave the conversation at the least.
 
 1. [Question: Why use Emacs?](01-why-use-emacs.md)
    Text-editors seemingly have limited purpose in an average individual's life. There are plenty of them around and some are more appealing than the others. This brings a question to mind: "Why use Emacs at the first place?".
