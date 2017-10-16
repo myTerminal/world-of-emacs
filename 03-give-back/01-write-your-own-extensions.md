@@ -30,10 +30,12 @@ There's also an [Emacs Lisp coding checklist](http://www.nongnu.org/emacs-tiny-t
 
 The steps you need to take in order to publish a package to a repository depends upon the repository itself. You would mostly be publishing your packages to the repositories that we discussed earlier.
 
-The simplest one to go for is marmalade-repo, through melpa and then lastly melpa-stable.
+The simplest one to go for is marmalade-repo, through melpa, melpa-stable and lastly the GNU ELPA.
+The harder the publishing process is, better is the quality of packages.
 
 Specific steps for each of the repositories are linked below:
 
 1. [marmalade-repo - How to upload packages](https://marmalade-repo.org/#upload)
 2. [Contributing to MELPA](https://github.com/melpa/melpa/blob/master/CONTRIBUTING.md)
 3. [Contributing to MELPA stable](https://github.com/melpa/melpa#melpa-stable)
+4. [Contributing to GNU ELPA](https://www.emacswiki.org/emacs/ELPA#toc2)
