@@ -184,6 +184,12 @@ This [[http://tuhdo.github.io][website]] has lot of information about Emacs star
 
 If you like reading detailed, lengthy manuals, you can also go through the [[https://www.gnu.org/software/emacs/manual/emacs.html][GNU Emacs Manual]] provided by GNU itself.
 
+**** Mastering Emacs - Mickey Peterson
+
+[[https://www.masteringemacs.org][Mastering Emacs]] is a website with [[https://www.masteringemacs.org/all-articles][numerous articles]] on how-tos, tips & tricks about Emacs. The author also has a book that you can buy as PDF or ePUB, also named as [[https://www.masteringemacs.org/book][Mastering Emacs]]. The book follows a systematic approach of introducing Emacs to beginners, starting from the bare basics, installation and then covering advanced topics in 280 pages.
+
+If you like reading detailed, lengthy manuals, you can also go through the [[https://www.gnu.org/software/emacs/manual/emacs.html][GNU Emacs Manual]] provided by GNU itself.
+
 **** Emacs.sexy
 
 This one is [[http://emacs.sexy][a noteworthy website]] that has quite a lot of references to places where you can find information about Emacs.
