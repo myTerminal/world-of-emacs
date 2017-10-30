@@ -41,7 +41,7 @@ Optionally, you can add this location to your environment variable ~PATH~, so th
 
 *** Macintosh
 
-There are multiple ways to install Emacs on a Macintosh computer.
+There are multiple ways to install Emacs on a Macintosh computer. In fact, there is an Emacs already installed on macOS Sierra. However, it only runs within a Terminal window.
 
 **** Homebrew/Cask
 
@@ -51,19 +51,27 @@ The simplest one is to do it using [[https://brew.sh][homebrew]]
 brew install emacs
 #+END_EXAMPLE
 
-Or you can do it with [[https://caskroom.github.io][cask]]
+This 'flavor' of Emacs runs within a Terminal window and will not offer any graphical features.
+
+You can however, make it look graphical by installing it as
+
+#+BEGIN_EXAMPLE
+brew install emacs --with-cocoa
+#+END_EXAMPLE
+
+Note that this will still conflict with the version of Emacs already installed on your system. To be able to launch the newly installed Emacs from Launchpad or Spotlight, you need to execute the following:
+
+#+BEGIN_EXAMPLE
+brew linkapps emacs
+#+END_EXAMPLE
+
+Or you can do it with [[https://caskroom.github.io][cask]], which is the recommended way to install Emacs according to brew.
 
 #+BEGIN_EXAMPLE
 brew cask install emacs
 #+END_EXAMPLE
 
-This 'flavor' of Emacs runs within a Terminal window and will not offer any graphical features.
-
-**** emacsformacosx
-
-You can download a '.dmg' file from [[https://emacsformacosx.com][https://emacsformacosx.com]]. This method needs manual installation.
-
-I prefer this flavor as it behaves almost the same as the one available for Windows that I first started using.
+This installs the same Emacs as the one available on [[https://emacsformacosx.com][https://emacsformacosx.com]]. I prefer this flavor as it behaves almost the same as the one available for Windows that I first started using.
 
 **** spacemacs
 
