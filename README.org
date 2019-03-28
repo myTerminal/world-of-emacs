@@ -37,7 +37,7 @@ they do on their computer from within an Emacs window.
 
 So why should one use Emacs? There are way too many reasons. You can
 read some of them in one of my posts I wrote in 2015:
-[[http://ismail.teamfluxion.com/#!/diary/20150502/Still_Editing_Macros_in_2015][Still
+[[http://ismail.teamfluxion.com/diary/20150502/Still_Editing_Macros_in_2015][Still
 Editing Macros in 2015]].
 
 Or, you can listen to what the experts say:
