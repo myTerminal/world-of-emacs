@@ -1,12 +1,12 @@
 #+TITLE: World of Emacs
 
-It is an established fact that Emacs is not just a text-editor that
+It is an established fact that Emacs is not just a text editor that
 you get reminded of only when you need to edit a text file. Emacs is a
 multi-tool that one can use for (almost) anything and everything they
 do on a computer.
 
 I use the term *World of Emacs* as Emacs is surrounded by experiences
-of unusual kinds and depths that are not explannable to non-users (or
+of unusual kinds and depths that are not explainable to non-users (or
 disbelievers), creating a level of addiction that lures oneself more
 into it, replacing all other tools used for day-to-day workflow by
 alternatives from within Emacs and sometimes creating their own tools,
@@ -22,16 +22,16 @@ from within Emacs and make them leave the conversation at the least.
 
 ** Question: Why use Emacs?
 
-After a file-browser, a text-editor is the most used software on a
+After a file-browser, a text editor is the most used software on a
 computer and as a software developer, I consider myself eligible to
 state that developers spend most of their time on a computer within a
 text-editor, except for the time we spend with command-line windows
-(for the ones who like typing commands).  There is a massive variety
+(for the ones who like typing commands). There is a massive variety
 of text-editors for one to use and many people do not care much for
-which one they use, especially when they can get their most common
-day-to-day tasks done without learning anything specific to use it.
+which one they use, especially when they can get done with their
+day-to-day tasks without learning anything specific for it.
 
-Emacs is not just a text-editor. Some call it an operating system,
+Emacs is not just a text editor. Some call it an operating system,
 which comes from the fact that one can possibly do everything that
 they do on their computer from within an Emacs window.
 
@@ -50,7 +50,7 @@ Or, you can listen to what the experts say:
 
 Emacs comes in different forms. Which one you need depends on (or
 dictates your) workflow. You need to find one for yourself and no
-matter which form you get and from where, it is always free.
+matter which flavor you use, it is always free.
 
 Emacs is available on all major operating systems: Windows, Macintosh
 and various Linux distributions.
@@ -88,7 +88,7 @@ brew install emacs
 This 'flavor' of Emacs runs within a Terminal window and will not
 offer any graphical features.
 
-You can however, make it look graphical by installing it as
+You can, however, make it look graphical by installing it as
 
 #+BEGIN_EXAMPLE
 brew install emacs --with-cocoa
@@ -137,7 +137,7 @@ distribution you use.
 
 **** Debian
 
-To install Emacs 24, you can rightaway type the below in a terminal.
+To install Emacs 24, you can right away type the below in a terminal.
 
 #+BEGIN_EXAMPLE
 sudo apt-get install emacs24
@@ -169,8 +169,8 @@ website]].
 
 ** Getting Started with Emacs
 
-Learning Emacs can be overwhelming, especially at the start. Afterall,
-it is not just a text-editor to edit files!
+Learning Emacs can be overwhelming, especially at the start. After all,
+it is not just a text editor to edit files!
 
 There is a huge crowd of selfless people waiting to get you in and
 there is a variety of tutorials available for you to go through. Emacs
@@ -194,7 +194,7 @@ screen, select the option that says 'Emacs Tutorial'.
 
 You will be presented with a long-running screen full of text with
 'learn-as-you-do' instructions to help you get acquainted with the
-basic key-bindings to get though your initial days within
+basic key-bindings to get through your initial days within
 Emacs. Proceed through the tutorial slowly, do not rush. You may want
 to do it more than once to make sure you are comfortable.
 
@@ -234,16 +234,16 @@ Refer this
 card]] along the way. Do not worry about learning every single
 shortcut right away.
 
-I like to print it and pin it at my desk at office.
+I like to print it and pin it at my office desk.
 
-Also, consider using this cheatsheet. It's a good one with minimal
+Also, consider using this cheat sheet. It's a good one with minimal
 basics.
 
 [[http://emacs.sexy/img/How-to-Learn-Emacs-v2-Large.png]]
 
 * Daily Life
 
-A regular life in the World of Emacs is full of learning, excitement
+Regular life in the World of Emacs is full of learning, excitement
 and pure satisfaction. One never learns enough Emacs ever due to its
 vast nature.
 
@@ -274,7 +274,7 @@ learn Emacs.
 
 There they also have training material for
 [[https://www.gnu.org/software/emacs/manual/html_node/elisp][Emacs
-Lisp]], which is a dilect of the beautiful language of
+Lisp]], which is a dialect of the beautiful language of
 [[https://en.wikipedia.org/wiki/Lisp_(programming_language)][Lisp]]. Knowing
 at least a bit of Emacs Lisp (or Elisp) helps customize Emacs
 better. Who knows, you would end up creating your own Emacs extensions
@@ -282,7 +282,7 @@ with Elisp!
 
 **** The Emacs mini manual and more by tuhdo
 
-This [[http://tuhdo.github.io][website]] has lot of information about
+This [[http://tuhdo.github.io][website]] has a lot of information about
 Emacs starting from the 'Why' and 'How' that we covered earlier to
 advanced topics like setups specific to programming languages and much
 more.
@@ -298,7 +298,7 @@ Manual]] provided by GNU itself.
 [[https://www.masteringemacs.org][Mastering Emacs]] is a website with
 [[https://www.masteringemacs.org/all-articles][numerous articles]] on
 how-tos, tips & tricks about Emacs. The author also has a book that
-you can buy as PDF or ePUB, also named as
+you can buy as a PDF or ePUB, also named as
 [[https://www.masteringemacs.org/book][Mastering Emacs]]. The book
 follows a systematic approach of introducing Emacs to beginners,
 starting from the bare basics, installation and then covering advanced
@@ -331,7 +331,7 @@ can either download a script file and load it manually into Emacs's
 runtime or you can use one of the available package archives.
 
 To start with, there are multiple package management systems, and for
-those systems they have multiple package archives. The two most
+those systems, they have multiple package archives. The two most
 popular package management systems are
 [[https://www.emacswiki.org/emacs/ELPA][ELPA]] and
 [[https://github.com/dimitri/el-get][el-get]]. ELPA is the more common
@@ -342,13 +342,13 @@ The major package archives for ELPA are:
 1. [[http://elpa.gnu.org][gnu ELPA]] is the default package repository for Emacs. It comes configured with Emacs.
 2. [[http://melpa.org][melpa]] requires authors to write their own packages and submit them through a strict set of guidelines for quality control. I have only three packages on melpa currently, partly as I do not have the time to align them to MELPA guidelines.
 3. [[https://stable.melpa.org][melpa-stable]] is a more stable version of melpa and supposedly hosts release versions of packages on melpa that are known to be stable. All packages on melpa-stable are on melpa and not at all the other way around.
-4. [[https://marmalade-repo.org][marmalade]] follows a relaxed approach of submitting packages to the registry where there is no review before a package is submitted. I make sure all my packages are submitted to marmalade. Current I have [[https://marmalade-repo.org/profile/myTerminal][twelve]] of them there. Absence of a review process still makes you responsible for the packages you upload and I think we still need to maintain some quality in our packages.
+4. [[https://marmalade-repo.org][marmalade]] follows a relaxed approach of submitting packages to the registry where there is no review before a package is submitted. I make sure all my packages are submitted to marmalade. Current I have [[https://marmalade-repo.org/profile/myTerminal][twelve]] of them there. The absence of a review process still makes you responsible for the packages you upload and I think we still need to maintain some quality in our packages.
 
 You can follow
 [[https://www.emacswiki.org/emacs/ELPA][https://www.emacswiki.org/emacs/ELPA]]
 for instructions on installing packages to your Emacs.
 
-As there are almost infinite number of Emacs packages out there, some
+As there are an almost infinite number of Emacs packages out there, some
 reside not only on the registries mentioned above, but a few are also
 hosted on individual GitHub repositories and a few are circulated as
 '.el' files.
@@ -365,8 +365,8 @@ future.
 
 *** Emacs Starter Kits
 
-If you think finding and installing the right packages for yourself is
-too much of work, there are a plenty of starter kits available that
+If you think that finding and installing the right packages for yourself 
+is too much of work, there are plenty of starter kits available that
 you can use right away.
 
 You can find a list
@@ -381,7 +381,7 @@ really well with your workflow, and that configuration makes 'your'
 Emacs different than the stock Emacs and that from the others.
 
 A very common trend is to create a project on GitHub and share your
-dotfiles (a collection of configuration of files on your computer, not
+dotfiles (a collection of configuration files on your computer, not
 just Emacs configuration) with the rest of the world. This practice
 makes available so many dotfiles for us to have a look and adopt small
 parts of in our own dotfiles.
@@ -389,7 +389,7 @@ parts of in our own dotfiles.
 Apart from helping others, this can also help you share the same
 configuration across multiple computers running different operating
 systems. I have personally been using the same configuration across
-all my three computers running Mac OS, Fedora Linux and Windows.
+all my three computers running Mac OS, Fedora Linux, and Windows.
 
 You can find a small list of a few noteworthy Emacs configurations
 [[https://github.com/emacs-tw/awesome-emacs#noteworthy-configurations][https://github.com/emacs-tw/awesome-emacs#noteworthy-configurations]].
@@ -411,10 +411,10 @@ get things done in a much more fun way than you used to do, for free.
 ** Write your own extensions
 
 Emacs has a package to do almost everything you can imagine. Just in
-case you find something that is not there already, you can create one
+the case you find something that is not there already, you can create one
 yourself and share it with the loving Emacs community.
 
-After a few months of using Emacs (or may be even earlier than that),
+After a few months of using Emacs (or maybe even earlier than that),
 you may want to write your own extensions for Emacs.
 
 As mentioned earlier, Emacs extensions are simply '.el' files
@@ -473,7 +473,7 @@ earlier.
 
 The simplest one to go for is marmalade-repo, through melpa,
 melpa-stable and lastly the GNU ELPA.  The harder the publishing
-process is, better is the quality of packages.
+process is, the better is the quality of packages.
 
 Specific steps for each of the repositories are linked below:
 
@@ -487,7 +487,7 @@ Specific steps for each of the repositories are linked below:
 Once Emacs becomes a part of your daily workflow, you start to realize
 that you are getting more efficient in some of the daily tasks that
 you do on your computer. You feel like you're learning something
-everyday, growing yourself along with your ever-evolving Emacs
+every day, growing yourself along with your ever-evolving Emacs
 configuration.
 
 If you choose to share your configuration on GitHub, you see the
