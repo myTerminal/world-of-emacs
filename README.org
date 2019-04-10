@@ -35,10 +35,8 @@ Emacs is not just a text editor. Some call it an operating system,
 which comes from the fact that one can possibly do everything that
 they do on their computer from within an Emacs window.
 
-So why should one use Emacs? There are way too many reasons. You can
-read some of them in one of my posts I wrote in 2015:
-[[http://ismail.teamfluxion.com/diary/20150502/Still_Editing_Macros_in_2015][Still
-Editing Macros in 2015]].
+So why should one use Emacs? There are way too many reasons. I
+delivered a few presentations about it. You can [[https://github.com/myTerminal/presentations/tree/master/why-use-emacs-in-2017][view one that I placed one on GitHub]].
 
 Or, you can listen to what the experts say:
 
