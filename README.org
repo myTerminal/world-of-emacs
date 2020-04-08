@@ -43,6 +43,7 @@ Or, you can listen to what the experts say:
 1. [[http://batsov.com/articles/2011/11/19/why-emacs/][Why Emacs? - Bozhidar]]
 2. [[http://www.howardism.org/Technical/Emacs/why-emacs.html][Why Learn Emacs - Howard Abrams]]
 3. [[http://emacs.sexy/][Why Use Emacs - emacs.sexy]]
+4. [[https://www.slideshare.net/yukihiro_matz/how-emacs-changed-my-life][How Emacs changed my life - Yukihiro "Matz" Matsumoto (The creator of Ruby)]]
 
 ** Question: How to get Emacs?
 
