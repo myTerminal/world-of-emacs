@@ -36,7 +36,7 @@ which comes from the fact that one can possibly do everything that
 they do on their computer from within an Emacs window.
 
 So why should one use Emacs? There are way too many reasons. I
-delivered a few presentations about it. You can [[https://github.com/myTerminal/presentations/tree/master/why-use-emacs-in-2017][view one that I placed one on GitHub]].
+delivered a few presentations about it. You can [[https://github.com/myTerminal/presentations/tree/master/technical/why-use-emacs-in-2017][view one that I placed one on GitHub]].
 
 Or, you can listen to what the experts say:
 
