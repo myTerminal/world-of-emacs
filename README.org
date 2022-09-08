@@ -52,10 +52,11 @@ Emacs comes in different forms. Which one you need depends on (or
 dictates your) workflow. You need to find one for yourself and no
 matter which flavor you use, it is always free.
 
-Emacs is available on all major operating systems: Windows, Macintosh
-and various Linux distributions.
+Emacs is available on all major operating systems: Windows, macOS,
+Linux, and others.
 
-Here is my attempt to list down all possible ways to obtain Emacs.
+Here is my attempt to list down all possible ways to obtain Emacs,
+at least the ones that I have tried myself.
 
 *** Windows
 
@@ -71,7 +72,7 @@ Optionally, you can add this location to your environment variable
 ~PATH~, so that you will be able to start it from a Command Prompt
 window.
 
-*** Macintosh
+*** macOS
 
 There are multiple ways to install Emacs on a Macintosh computer. In
 fact, there is an Emacs already installed on macOS Sierra. However, it
@@ -106,7 +107,7 @@ Or you can do it with [[https://caskroom.github.io][cask]], which is
 the recommended way to install Emacs according to brew.
 
 #+BEGIN_EXAMPLE
-brew cask install emacs
+brew install --cask emacs
 #+END_EXAMPLE
 
 This installs the same Emacs as the one available on
@@ -137,33 +138,31 @@ distribution you use.
 
 **** Debian
 
-To install Emacs 24, you can right away type the below in a terminal.
-
 #+BEGIN_EXAMPLE
-sudo apt-get install emacs24
-#+END_EXAMPLE
-
-To install Emacs 25, you need to add a repository, update sources and
-then install it.
-
-#+BEGIN_EXAMPLE
-sudo add-apt-repository ppa:kelleyk/emacs sudo apt-get update sudo
-apt-get install emacs25
+sudo apt install emacs
 #+END_EXAMPLE
 
 **** Fedora
-
-On Fedora, it is as simple as a dnf command.
 
 #+BEGIN_EXAMPLE
 sudo dnf install emacs
 #+END_EXAMPLE
 
-*** Misc
+**** Arch
 
-I am sure as vast a software Emacs is, there are a lot more ways to
-install it and it would be difficult to list all of those methods
-here.  To learn about other ways of obtaining Emacs, refer to the
+#+BEGIN_EXAMPLE
+sudo pacman -S emacs
+#+END_EXAMPLE
+
+**** Void
+
+#+BEGIN_EXAMPLE
+sudo xbps-install -S emacs-gtk3
+#+END_EXAMPLE
+
+*** Other
+
+To learn about other ways of obtaining Emacs, refer to the
 [[https://www.gnu.org/software/emacs/download.html][official
 website]].
 
