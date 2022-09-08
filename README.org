@@ -1,17 +1,23 @@
 #+TITLE: World of Emacs
 
-It is an established fact that Emacs is not just a text editor that
-you get reminded of only when you need to edit a text file. Emacs is a
-multi-tool that one can use for (almost) anything and everything they
-do on a computer.
+We all know how Emacs is not just a text editor that one only thinks
+of while needing to editing a text file, but instead is a multi-tool
+that can be used for (almost) anything and everything one uses a
+computer for.
 
-I use the term *World of Emacs* as Emacs is surrounded by experiences
-of unusual kinds and depths that are not explainable to non-users (or
-disbelievers), creating a level of addiction that lures oneself more
-into it, replacing all other tools used for day-to-day workflow by
-alternatives from within Emacs and sometimes creating their own tools,
-thereby contributing to this free community that share one thing in
-common: their love for Emacs.
+I named this document *World of Emacs* as this tool is surrounded by its
+own ecosystem, to the extent that I think naming it something like
+*Emacs Universe* would also be reasonable enough. At least to me, the
+experiences I've had with this tool is beyond comparison to any other
+software tool that I've used on a computer. Though this phenomenon
+that I refer to here cannot always be described in words to the
+"non-believers", this is something that may just start off as a small
+tools in your tool-set, slowly growing in all dimensions, eventually
+replacing most other tools around it. This does come from the fact
+that Emacs already has a mode to do pretty much anything that you do
+in any other software, but Emacs users also often end up creating what
+is not there already, or otherwise create their own simplified version
+of something that already exists.
 
 * Entry
 
