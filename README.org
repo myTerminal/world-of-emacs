@@ -3,8 +3,7 @@
 Emacs is not just a text editor, instead, it is a multi-tool
 that can be used for (almost) anything and everything one uses a
 computer for. It even goes to the point that it is often discussed how
-[it violates the UNIX
-philosophy](https://www.quora.com/Does-Emacs-violate-the-UNIX-philosophy-of-doing-one-thing-very-well),
+[[https://www.quora.com/Does-Emacs-violate-the-UNIX-philosophy-of-doing-one-thing-very-well][it violates the UNIX philosophy]],
 which in simple terms says that a piece of software needs to do one
 thing and do it well.
 
