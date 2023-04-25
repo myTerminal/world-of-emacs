@@ -1,23 +1,37 @@
 #+TITLE: World of Emacs
 
-We all know how Emacs is not just a text editor that one only thinks
-of while needing to editing a text file, but instead is a multi-tool
+Emacs is not just a text editor, instead, it is a multi-tool
 that can be used for (almost) anything and everything one uses a
-computer for.
+computer for. It even goes to the point that it is often discussed how
+[it violates the UNIX
+philosophy](https://www.quora.com/Does-Emacs-violate-the-UNIX-philosophy-of-doing-one-thing-very-well),
+which in simple terms says that a piece of software needs to do one
+thing and do it well.
 
-I named this document *World of Emacs* as this tool is surrounded by its
-own ecosystem, to the extent that I think naming it something like
-*Emacs Universe* would also be reasonable enough. At least to me, the
-experiences I've had with this tool is beyond comparison to any other
-software tool that I've used on a computer. Though this phenomenon
-that I refer to here cannot always be described in words to the
-"non-believers", this is something that may just start off as a small
-tools in your tool-set, slowly growing in all dimensions, eventually
-replacing most other tools around it. This does come from the fact
-that Emacs already has a mode to do pretty much anything that you do
-in any other software, but Emacs users also often end up creating what
-is not there already, or otherwise create their own simplified version
-of something that already exists.
+Emacs has its own ecosystem that includes its plugins (we call them
+packages), both inbuilt and ones we install, the people behind those
+plugins, and Emacs celebrities that spread the love of Emacs and help
+new people join our *World of Emacs*. This tool started as an
+odd/dated/powerless replacement to my then-favorite programming tool
+which was Visual Studio and slowly has been replacing many other tools
+in my toolset one at a time. Sometimes this happens via an external
+plugin that some fine human has contributed to the ecosystem for the
+rest of the fellow users, and otherwise, it happens to be built right
+into Emacs.
+
+
+I believe I'm a fan of tools, so I've had several memorable and
+eye-opening experiences with a variety of software, but those that I
+had with Emacs have been just beyond comparison to any other. What may
+appear odd and obscure at the start might become an integral part of
+your computing workflow. If it goes even remotely the same for you as
+it did for me, you'll find yourself searching for ways to perform
+various tasks from within Emacs even for those that you've been doing
+for a long time when you weren't an Emacs user. Not to mention the
+case when there isn't a way, which is when you can fabricate your own
+way of doing this in Emacs, either in the form of a small script or
+otherwise in the form of a fully-fledged package that can be used by
+not only by yourself but also by other Emacs-ers.
 
 * Entry
 
