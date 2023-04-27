@@ -243,43 +243,39 @@ Lastly, you can also have a look at [[https://github.com/myTerminal/dotfiles][my
 
 * Give Back
 
-Once you are comfortable enough in the World of Emacs, you should consider giving back to the community that helped you get started and get things done in a much more fun way than you used to do, for free.
+Once you are comfortable enough in the World of Emacs, you should consider giving back to the community that helped you get started back when you needed help. Think of it as a way of giving back to the community that helped you get better at what you do today.
 
 ** Write your own extensions
 
-Emacs has a package to do almost everything you can imagine. Just in case you find something that is not there already, you can create one yourself and share it with the loving Emacs community.
+Emacs has a package to do almost everything you would imagine (as possibly cannot imagine). If at all it happens to be the case that what you're looking for isn't there already, you can create a package yourself and share it with the Emacs community.
 
-After a few months of using Emacs (or maybe even earlier than that), you may want to write your own extensions for Emacs.
+As I mentioned earlier, Emacs extensions are simply ".el" files containing scripts written in the beautiful language of Elisp. These contain mostly variables and functions, some of which are exposed so that they can be invoked from the outside in order to achieve a certain result. Most Emacs packages also provide a mode with a certain behavior that helps add features to an already featureful text editor.
 
-As mentioned earlier, Emacs extensions are simply '.el' files containing scripts written in the beautiful language of Elisp.
-
-Elisp is one of the many dialects that are a part of the family of functional programming languages called [[https://en.wikipedia.org/wiki/Lisp_(programming_language)][Lisp]]. Lisp was created by [[https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)][John McCarthy]] way back in 1958 and we still see incarnations of Lisp in the form of programming languages like [[https://en.wikipedia.org/wiki/Clojure][Clojure]] created by [[https://twitter.com/richhickey][Rich Hickey]] in 2007.
+Talking about Elisp, it is one of the many dialects that are a part of the family of functional programming languages called [[https://en.wikipedia.org/wiki/Lisp_(programming_language)][Lisp]]. Lisp was created by [[https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)][John McCarthy]] way back in 1958 and we still see incarnations of Lisp in the form of programming languages as modern as [[https://en.wikipedia.org/wiki/Clojure][Clojure]], which was created by [[https://twitter.com/richhickey][Rich Hickey]] in 2007 and is a fan-favorite of many.
 
 *** Learning Elisp
 
-Learning basic Elisp should be simple and as usual, there are quite a lot of resources on the internet, some of which are:
+Learning basic Elisp should be simple. As usual, there are quite a lot of resources on the internet, some of which are:
 
 1. [[http://ergoemacs.org/emacs/elisp.html][Practical Emacs Lisp - ergoemacs]]
 2. [[https://www.gnu.org/software/emacs/manual/eintr.html][An Introduction to Programming in Emacs Lisp - gnu.org]]
 3. [[https://www.gnu.org/software/emacs/manual/elisp.html][GNU Emacs Lisp Reference Manual]]
 
-I always like to learn a few basics and start writing my own code to get glued to the language, start getting comfortable, and gain confidence before I progress to relatively advanced topics.
+I always like to learn a few basics and start writing my own code to get glued to the language. This way I see the practicality and use of what I'm learning. After I get a little comfortable with the language and gain some confidence, only then do I progress to the relatively advanced topics.
 
 *** Writing extensions
 
-Though writing extensions is easy, one needs to follow a few conventions that the community has agreed upon before we publish our packages out there. The conventions include design practices, coding style, and commenting formats including file headers and footers.
+Though writing extensions is easy, one needs to follow a few conventions that the community has agreed upon before we publish our packages out there. This helps keep some order in the huge collection of useful tools so that we do not step over the toes of others. The conventions include design practices, coding style, and commenting formats including file headers and footers.
 
-Read through the post [[https://blog.aaronbieber.com/2015/08/04/authoring-emacs-packages.html][Authoring Emacs Packages]] by Aaron Bieber to get an idea.
+Read through the post [[https://blog.aaronbieber.com/2015/08/04/authoring-emacs-packages.html][Authoring Emacs Packages]] by Aaron Bieber to get an idea. Also, reading through the [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Coding-Conventions.html][Coding Conventions]] described within the GNU Emacs Lisp Reference Manual will help you learn a few basic practices to keep in mind.
 
-Also, read through the [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Coding-Conventions.html][Coding Conventions]] described within the GNU Emacs Lisp Reference Manual that mentions a few basic practices to keep in mind.
-
-There's also an [[http://www.nongnu.org/emacs-tiny-tools/packages/index-body.html][Emacs Lisp coding checklist]] that you can refer to save you some rework later.
+There's also an [[http://www.nongnu.org/emacs-tiny-tools/packages/index-body.html][Emacs Lisp coding checklist]] that you can refer to save you some rework later on.
 
 *** Publishing Extensions
 
 The steps you need to take in order to publish a package to a repository depend upon the repository itself. You would mostly be publishing your packages to the repositories that we discussed earlier.
 
-The simplest one to go for is marmalade-repo, through melpa, melpa-stable, and lastly the GNU ELPA. The harder the publishing process is, the better the quality of the packages.
+The simplest one to go for is marmalade-repo as it doesn't need a formal code-review. The next would be melpa, which if you're publishing your package to, it will also enable you to publish them on melpa-stable. The most difficult one would be GNU ELPA. Generally speaking, the harder the publishing process is, the better the quality of the packages.
 
 Specific steps for each of the repositories are linked below:
 
@@ -292,22 +288,20 @@ Specific steps for each of the repositories are linked below:
 
 Once Emacs becomes a part of your daily workflow, you start to realize that you are getting more efficient in some of the daily tasks that you do on your computer. You feel like you're learning something every day, growing yourself along with your ever-evolving Emacs configuration.
 
-If you choose to share your configuration on GitHub, you see the number of commits increases with time and if you manage to publish a few packages of your own, you can probably find the number of stars on GitHub or the download count on the repository.
+The next thing that you can do is to help others learn Emacs. There are various forms of training material available: posts and articles about tips and tricks and individual experiences with Emacs, GitHub projects containing documentation (like this one), websites specifically created to host content about Emacs, YouTube training videos, etc. Pick the format that works for you, and start sharing!
 
-The next thing that you can do is to help others learn Emacs. There are various forms of training material available: posts and articles about tips and tricks and individual experiences with Emacs, GitHub projects containing documentation (like this one), websites specifically created to host content about Emacs, YouTube training videos, etc.
-
-A very few of the available video series are listed below:
+A short curated list of available video series is listed below:
 
 1. [[https://www.youtube.com/watch?v=B6jfrrwR10k][Emacs Introduction and Demonstration - Howard Abrams]]
 2. [[https://www.youtube.com/watch?v=rxLzIbePW2I][Learn Emacs in a Weekend! - Tom Walker]]
 3. [[http://emacsrocks.com][Emacs Rocks!]]
-4. [[https://www.youtube.com/playlist?list=PLPCM9PO0p2kLGcF0fOrg0cMoFnWZRFScV][Role-playing with Emacs]] - a video series started by me a while back but is still incomplete
+4. [[https://www.youtube.com/playlist?list=PLPCM9PO0p2kLGcF0fOrg0cMoFnWZRFScV][Role-playing with Emacs]] - a video series started by me about a decade back but is still incomplete
 5. [[https://www.youtube.com/playlist?list=PLPCM9PO0p2kKs9W1JjkuyfJb7LmH2Ju2q][How to Configure Emacs]] - another incomplete series by me about configuring Emacs
 6. [[https://www.youtube.com/playlist?list=PL-mFLc7R_MJd5FoIrbNAcndPT50_hbVST][Emacs Tutorials for Beginners - b yuksel]]
 
 * Feedback
 
-I need your help making this guide a more seamless experience for getting into the *World of Emacs*.
+I need your help in making this guide a more seamless experience for getting into the *World of Emacs*. Feel free to contribute in any way you feel like.
 
 # Local Variables:
 # eval: (visual-line-mode)
