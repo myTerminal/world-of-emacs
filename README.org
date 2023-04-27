@@ -4,21 +4,21 @@ Emacs is not just a text editor, instead, it is a multi-tool that can be used fo
 
 Emacs has its own ecosystem that includes its plugins (we call them packages), both inbuilt and ones we install, the people behind those plugins, and Emacs celebrities that spread the love of Emacs and help new people join our *World of Emacs*. This tool started as an odd/dated/powerless replacement to my then-favorite programming tool which was Visual Studio and slowly has been replacing many other tools in my toolset one at a time. Sometimes this happens via an external plugin that some fine human has contributed to the ecosystem for the rest of the fellow users, and otherwise, it happens to be built right into Emacs.
 
-I believe I'm a fan of tools, so I've had several memorable and eye-opening experiences with a variety of software, but those that I had with Emacs have been just beyond comparison to any other. What may appear odd and obscure at the start might become an integral part of your computing workflow. If it goes even remotely the same for you as it did for me, you'll find yourself searching for ways to perform various tasks from within Emacs even for those that you've been doing for a long time when you weren't an Emacs user. Not to mention the case when there isn't a way, which is when you can fabricate your own way of doing this in Emacs, either in the form of a small script or otherwise in the form of a fully-fledged package that can be used by not only by yourself but also by other Emacs-ers.
+I believe I'm a fan of tools, so I've had several memorable and eye-opening experiences with a variety of software, but those that I had with Emacs have been just beyond comparison to any other. What may appear odd and obscure at the start might become an integral part of your computing workflow. If it goes even remotely the same for you as it did for me, you'll find yourself searching for ways to perform various tasks from within Emacs even for those that you've been doing for a long time when you weren't an Emacs user. Not to mention the case when there isn't a way, which is when you can fabricate your way of doing this in Emacs, either in the form of a small script or otherwise in the form of a fully-fledged package that can be used by not only by yourself but also by other Emacs-ers.
 
 * Entry
 
-A typical entry to the World of Emacs follows a pattern where a non-user turns into a fan and an unofficial promoter who alienates other bodies around by mentioning how they perform a specific task from within Emacs and making them leave the conversation at the least.
+One's journey to the World of Emacs starts with hearing about the tool, soon followed by an eye-opening experience and then a complete change in workflow for text editing and even general computing. One would soon find it hard to not mention to other people on how they perform a particular task from within Emacs, sometimes to get weird reactions and otherwise alienate the "non-believers" and force them to leave the conversation altogether.
 
 ** Question: Why use Emacs?
 
-After a file browser, a text editor is the most used software on a computer and as a software developer, I consider myself eligible to state that developers spend most of their time on a computer within a text editor, except for the time we spend with command-line windows (for the ones who like typing commands). There is a massive variety of text editors for one to use and many people do not care much for which one they use, especially when they can get done with their day-to-day tasks without learning anything specific about it.
+After a file browser, a text editor is the most used software on a computer and as a software developer, I consider myself eligible to state that developers spend most of their time on a computer within a text editor, except for the time we spend with command-line terminals. There is a massive variety of text editors for one to use and many people do not care much for which one they actually end up using so far as it helps them get the job done. Most such text editors simply provide one with enough features to get their job done without having to spend time learning how to operate that piece of software.
 
-Emacs is not just a text editor. Some call it an operating system, which comes from the fact that one can possibly do everything that they do on their computer from within an Emacs window.
+Emacs on the other hand is far more than just a text editor. Some also call it an operating system, and it can be said that it wouldn't be an overstatement. Some people do not leave the Emacs window for hours, while for some, it is the only window they need. This is even true for a computer with a text-based interface and no graphical windowing system, as Emacs can be used to open multiple "windows" for different tasks and toss them in and out of the screen as needed.
 
-So why should one use Emacs? There are way too many reasons. I delivered a few presentations about it. You can [[https://github.com/myTerminal/presentations/tree/master/technical/why-use-emacs-in-2017][view one that I placed on GitHub]].
+So the answer to the question of why one should use Emacs, there are way too many reasons to list down. I have made attempts at a few presentations at work, and you can find the most recent one [[https://github.com/myTerminal/presentations/tree/master/technical/why-use-emacs-in-2017][here on GitHub]].
 
-Or, you can listen to what the experts say:
+Or, you can also listen to what the experts say:
 
 1. [[http://batsov.com/articles/2011/11/19/why-emacs/][Why Emacs? - Bozhidar]]
 2. [[http://www.howardism.org/Technical/Emacs/why-emacs.html][Why Learn Emacs - Howard Abrams]]
@@ -28,27 +28,27 @@ Or, you can listen to what the experts say:
 
 ** Question: How to get Emacs?
 
-Emacs comes in different forms. Which one you need depends on (or dictates your) workflow. You need to find one for yourself and no matter which flavor you use, it is always free.
+Emacs comes in different forms. Which one you need depends on (or dictates your) workflow. You need to find one for yourself and no matter which flavor you use, it is always free (freedom and price).
 
-Emacs is available on all major operating systems: Windows, macOS, Linux, and others.
+Emacs is available on all major operating systems: Windows, Linux, and other UNIX-like operating systems like macOS.
 
 Here is my attempt to list down all possible ways to obtain Emacs, at least the ones that I have tried myself.
 
 *** Windows
 
-On Windows, you can just download Emacs binary from [[http://ftp.gnu.org/gnu/emacs/windows][http://ftp.gnu.org/gnu/emacs/windows]] and place it in a directory on your disk.
+On Windows, you can simply download their Emacs binary from [[http://ftp.gnu.org/gnu/emacs/windows][http://ftp.gnu.org/gnu/emacs/windows]] and place it in a directory on your disk.
 
-To run Emacs, you can execute the binary ~bin\runemacs.exe~. You can create a shortcut to this file and place it on your Desktop if you like and that goes with your preference.
+To run Emacs, you can execute the binary ~~bin\runemacs.exe~~. You can create a shortcut to this file and place it on your Desktop if you like and that goes with your preference.
 
 Optionally, you can add this location to your environment variable ~PATH~, so that you will be able to start it from a Command Prompt window.
 
 *** macOS
 
-There are multiple ways to install Emacs on a Macintosh computer. In fact, there is Emacs already installed on macOS Sierra. However, it only runs within a Terminal window.
+There are multiple ways to install Emacs on a Macintosh computer. Some editions of macOS already come installed with a distribution of Emacs. There's only one problem with it though: it only runs within a terminal window.
 
 **** Homebrew/Cask
 
-The simplest one is to do it using [[https://brew.sh][homebrew]]
+The simplest one is to do it using [[https://brew.sh][homebrew]].
 
 #+BEGIN_EXAMPLE
 brew install emacs
@@ -74,7 +74,7 @@ Or you can do it with [[https://caskroom.github.io][cask]], which is the recomme
 brew install --cask emacs
 #+END_EXAMPLE
 
-This installs the same Emacs as the one available on [[https://emacsformacosx.com][https://emacsformacosx.com]]. I prefer this flavor as it behaves almost the same as the one available for Windows that I first started using.
+This installs the same Emacs as the one available on [[https://emacsformacosx.com][https://emacsformacosx.com]]. I used to prefer this flavor as it behaved almost the same as the one I currently use on my Linux systems and the Windows machines at work.
 
 **** spacemacs
 
@@ -84,13 +84,13 @@ The setup involves downloading Emacs and applying the spacemacs configs over it 
 
 **** Aquamacs
 
-[[http://aquamacs.org][Aquamacs]] is an Emacs distribution with some extra features.
+[[http://aquamacs.org][Aquamacs]] is another Emacs distribution with some extra features.
 
 You can download it from the website.
 
 *** Linux
 
-The method of installation of Emacs on Linux depends upon the distribution you use.
+The method of installation of Emacs on Linux depends upon the distribution you use. Generally, installing Emacs on Linux is easier than the other platforms we talked about earlier.
 
 **** Debian
 
@@ -122,45 +122,41 @@ To learn about other ways of obtaining Emacs, refer to the [[https://www.gnu.org
 
 ** Getting Started with Emacs
 
-Learning Emacs can be overwhelming, especially at the start. After all, it is not just a text editor to edit files!
+Learning Emacs can be overwhelming, more so at the start. After all, it is not just a text editor to edit files, so that means that you have to learn how to perform much more than just that.
 
-There is a huge crowd of selfless people waiting to get you in and there is a variety of tutorials available for you to go through. Emacs has one in itself.
+There are a lot of selfless people waiting to gtext basedet you in and there is an enormous collection of tutorials available for you to go through. Emacs has one in itself as well. You may type ~C-h t~ to start the text-based tutorial which is more than enough to get acquainted with the basic operation of Emacs.
 
-Emacs needs some patience and dedication at the start but when things start to sink in, one would soon realize that the initial time spent was well worth it.
-
-Remember: The start will be slow and within a couple of days, you could be fairly comfortable.
+Now for a tool like Emacs, learning it isn't easy and it needs some patience and dedication at the start. When things start to sink in, the initial time spent starts to appear to be a smart investment. You just need to be patient and you'll be flying before you know.
 
 Below are a set of steps that I recommend going through to get started in a systematic manner:
 
 *** The inbuilt Emacs Tutorial
 
-Go through the entire Emacs tutorial that is part of Emacs itself. To start the tutorial, launch Emacs, and from the welcome screen, select the option that says 'Emacs Tutorial'.
+Go through the entire Emacs tutorial that is part of Emacs itself. To start the tutorial, you may either select the option that says "Emacs Tutorial" from the welcome screen, or press ~C-h t~ from anywhere within Emacs.
 
-You will be presented with a long-running screen full of text with 'learn-as-you-do' instructions to help you get acquainted with the basic key bindings to get through your initial days within Emacs. Proceed through the tutorial slowly, do not rush. You may want to do it more than once to make sure you are comfortable.
+You will be presented with a long-running screen full of text with "learn-as-you-do" instructions to help you get acquainted with the basic key bindings to get through your initial days within Emacs. Proceed through the tutorial slowly, do not rush. You may want to do it more than once to make sure you are comfortable.
 
 *** Emacs Guided Tour
 
-You can view the Emacs Guided Tour from the same screen where you started the previous tutorial. An option is located on the next line.
+You can view the Emacs Guided Tour from the same screen where you started the previous tutorial.
 
-This one opens up a web page in your web browser. You can also visit it here: [[https://www.gnu.org/software/emacs/tour][https://www.gnu.org/software/emacs/tour]].
+The guided tour opens up a web page in your web browser. You can also visit it here: [[https://www.gnu.org/software/emacs/tour][https://www.gnu.org/software/emacs/tour]].
 
 You'll be happy to see some colorful pictures after going through screens full of plain text.
 
 *** Alternate 'Practical' Tutorial
 
-[[http://ergoemacs.org][ergoemacs.org]] is a not-so-pretty website that has a lot of useful information on Emacs.
+[[http://ergoemacs.org][ergoemacs.org]] may not be the prettiest website you must have visited, but it sure has a lot of useful information on Emacs.
 
-You can also visit [[http://ergoemacs.org/emacs/emacs.html][http://ergoemacs.org/emacs/emacs.html]] for a 'practical' tutorial.
+You can also visit [[http://ergoemacs.org/emacs/emacs.html][http://ergoemacs.org/emacs/emacs.html]] for a "practical" tutorial.
 
 *** Yet Another Emacs Tutorial
 
-[[http://david.rothlis.net][David Rothlisberger]] has created a good website as a detailed [[http://david.rothlis.net/emacs/tutorial.html][tutorial for Emacs]] where he talks about everything from installation to using it. Besides, the website is neat!
+[[http://david.rothlis.net][David Rothlisberger]] has created a great website as a detailed [[http://david.rothlis.net/emacs/tutorial.html][tutorial for Emacs]] where he talks about everything from installation to using it. Besides, the website is neater than what we just talked about.
 
 *** A Reference card
 
-Refer to this [[https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf][reference card]] along the way. Do not worry about learning every single shortcut right away.
-
-I like to print it and pin it on my office desk.
+Refer to this [[https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf][reference card]] along the way. Do not worry about learning every single shortcut right away, but just keep the reference card handy. I like to print it and pin it on my office desk.
 
 Also, consider using this cheat sheet. It's a good one with minimal basics.
 
