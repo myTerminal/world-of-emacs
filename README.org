@@ -164,17 +164,15 @@ Also, consider using this cheat sheet. It's a good one with minimal basics.
 
 * Daily Life
 
-Regular life in the World of Emacs is full of learning, excitement, and pure satisfaction. One never learns enough Emacs ever due to its vast nature.
+At this point, one's already aware of the basics of Emacs, and probably also has started using Emacs in their daily workflow. The learning never ends, and Emacs continues to grow on you as you now learn about more things you can do or even more about the things you already do.
 
 ** More than just basics
 
-After the point when you manage to convince yourself to use Emacs in your workflow and after getting a bit comfortable with it, there are cheat sheets and detailed references that you can keep coming back to every day.
-
-Once you start getting comfortable with Emacs, you do not need to go through the basics anymore. The key bindings that used to be so difficult now start becoming muscle memory to the fingers.
+The key bindings that once used to keep you away from using Emacs have now become second nature. If you'd like to go beyond the basics (which you definitely should), there are cheat sheets and detailed references that you can keep coming back to every day.
 
 *** A few Emacs references
 
-None of us would be able to learn Emacs entirely. We start with learning only as much as we need and then we keep going back to a few guides to learn more as we go. Fortunately, our fellow creatures have already created a lot of such reference material for us that we can refer.
+Due to the vast collection of possibilities and features within Emacs, learning everything is close to impossible. My way of learning new things is that I start with only as much as I absolutely need and then keep learning more as I go. Fortunately, there's plenty of reference material that one can use to learn one thing at a time.
 
 **** The ergoemacs website
 
@@ -184,7 +182,7 @@ There they also have training material for [[https://www.gnu.org/software/emacs/
 
 **** The Emacs mini manual and more by tuhdo
 
-This [[http://tuhdo.github.io][website]] has a lot of information about Emacs starting from the 'Why' and 'How' that we covered earlier to advanced topics like setups specific to programming languages and much more.
+This [[http://tuhdo.github.io][website]] has a lot of information about Emacs starting from the 'Why' and 'How' that we covered earlier to advanced topics like setting it up for use with specific programming languages and much more.
 
 **** The GNU Emacs Manual
 
@@ -192,9 +190,7 @@ If you like reading detailed, lengthy manuals, you can also go through the [[htt
 
 **** Mastering Emacs - Mickey Peterson
 
-[[https://www.masteringemacs.org][Mastering Emacs]] is a website with [[https://www.masteringemacs.org/all-articles][numerous articles]] on how-tos, tips & tricks about Emacs. The author also has a book that you can buy as a PDF or ePUB, also named [[https://www.masteringemacs.org/book][Mastering Emacs]]. The book follows a systematic approach of introducing Emacs to beginners, starting from the bare basics, installation, and then covering advanced topics in 280 pages.
-
-If you like reading detailed, lengthy manuals, you can also go through the [[https://www.gnu.org/software/emacs/manual/emacs.html][GNU Emacs Manual]] provided by GNU itself.
+[[https://www.masteringemacs.org][Mastering Emacs]] is a website with [[https://www.masteringemacs.org/all-articles][numerous articles]] on how-tos, tips & tricks about Emacs. The author also has a book that you can buy as a PDF or ePUB, also named [[https://www.masteringemacs.org/book][Mastering Emacs]]. The book follows a systematic approach of introducing Emacs to beginners, starting from the bare basics, installation, and then covering advanced topics in around 280 pages.
 
 **** Emacs.sexy
 
@@ -202,13 +198,13 @@ This one is [[http://emacs.sexy][a noteworthy website]] that has quite a lot of 
 
 *** Emacs Packages
 
-As GNU describes, Emacs is an extensible, self-documenting editor. There are thousands of packages that you can add to your configuration (and later write your own).
+As GNU describes, Emacs is an extensible, self-documenting editor. There are thousands of packages that you can add to your configuration.
 
-The core of Emacs is written in C++ and the runtime is based on Elisp. This makes it very easy to modify its behavior by writing a few lines of Elisp code. That is exactly what those packages out there are: pieces of nicely written Elisp code that you can 'install' into your Emacs.
+The core of Emacs is written in C++ and the runtime is based on Elisp. This makes it very easy to modify its behavior by writing a few lines of Elisp code. That is exactly what those packages out there are: pieces of well-written and nicely organized Elisp code that you can "install" into your Emacs.
 
 Even when installing packages, Emacs offers a wide set of choices. You can either download a script file and load it manually into Emacs's runtime or you can use one of the available package archives.
 
-To start with, there are multiple package management systems and those systems have multiple package archives. The two most popular package management systems are [[https://www.emacswiki.org/emacs/ELPA][ELPA]] and [[https://github.com/dimitri/el-get][el-get]]. ELPA is the more common one among the two.
+To start with, there are multiple package management systems and those systems have multiple package archives. The two most popular package management systems are [[https://www.emacswiki.org/emacs/ELPA][ELPA]] and [[https://github.com/dimitri/el-get][el-get]]. ELPA is the more common one among the two. **CAUTION: This section needs an update**.
 
 The major package archives for ELPA are:
 
@@ -219,31 +215,31 @@ The major package archives for ELPA are:
 
 You can follow [[https://www.emacswiki.org/emacs/ELPA][https://www.emacswiki.org/emacs/ELPA]] for instructions on installing packages to your Emacs.
 
-As there are an almost infinite number of Emacs packages out there, some reside not only on the registries mentioned above, but a few are also hosted on individual GitHub repositories, and a few are circulated as '.el' files.
+As there are an almost infinite number of Emacs packages out there, some reside not only on the registries mentioned above, but a few are also hosted on individual GitHub repositories, and a few are distributed as ".el" files.
 
-If you are confident that you will not be overwhelmed, you can refer to [[https://github.com/emacs-tw/awesome-emacs][this list of a few most popular packages for Emacs]] at your own discretion. Remember: You have been warned, you will lose days of your life browsing through these packages.
+If you think you can take it, you may refer to [[https://github.com/emacs-tw/awesome-emacs][this list of a few most popular packages for Emacs]] at your own discretion. Remember: You have been warned, you will lose days of your life browsing through these packages.
 
-Let's say you went through the entire list of packages, just realize that it was just one list out of the many that you may find in the future.
+Let's say you went through the entire list of packages, you need to realize that it was just one list out of the many that you may find in the future.
 
 *** Emacs Starter Kits
 
 If you think that finding and installing the right packages for yourself is too much work, there are plenty of starter kits available that you can use right away.
 
-You can find a list [[https://github.com/emacs-tw/awesome-emacs#starter-kit][here]].
+You can find a list [[https://github.com/emacs-tw/awesome-emacs#starter-kit][here]]. As a self-promotion, let me also mention [[https://github.com/myTerminal/super-emacs][super-emacs]], which is my own generic Emacs configuration that you can use with barely any more customization.
 
 ** Share your Emacs
 
-A few weeks into using Emacs, you realize that you have created an Emacs of your own. Well actually, you do not create an Emacs of your own, but you manage to put together some configuration that works really well with your workflow, and that configuration makes 'your' Emacs different than the stock Emacs and from the others.
+Once you realize that you have created an Emacs of your own, it's now time to step up the game. Pretty much all that you did was to put together a configuration that works really well with your workflow, and that configuration makes "your" Emacs different than the stock Emacs and from what others use.
 
-A very common trend is to create a project on GitHub and share your dotfiles (a collection of configuration files on your computer, not just Emacs configuration) with the rest of the world. This practice makes available so many dotfiles for us to have a look at and adopt small parts of within our own dotfiles.
+A very common trend is to create a project on GitHub and share your dotfiles (a collection of configuration files on your computer, not just Emacs configuration) with the rest of the world. This practice makes available so many dotfiles for us to look at and adopt small parts within our own dotfiles.
 
-Apart from helping others, this can also help you share the same configuration across multiple computers running different operating systems. I have personally been using the same configuration across all my three computers running Mac OS, Fedora Linux, and Windows.
+Apart from helping others, this can also help you share the same configuration across multiple computers running different operating systems. I have personally been using the same configuration across all of my computers running macOS, Linux, and Windows.
 
 You can find a small list of a few noteworthy Emacs configurations [[https://github.com/emacs-tw/awesome-emacs#noteworthy-configurations][https://github.com/emacs-tw/awesome-emacs#noteworthy-configurations]].
 
 Apart from Emacs, you can also find other dotfiles at [[https://github.com/webpro/awesome-dotfiles][https://github.com/webpro/awesome-dotfiles]] and [[https://dotfiles.github.io][https://dotfiles.github.io]].
 
-Lastly, you can also have a look at [[https://github.com/myTerminal/dotfiles][my dotfiles]], self-promotion you know!
+Lastly, you can also have a look at [[https://github.com/myTerminal/dotfiles][my dotfiles]], which though it started as Emacs configuration, has turned into something else altogether. It also acts as a host for [[https://github.com/myTerminal/super-emacs][super-emacs]], which replaced my personal config a while back.
 
 * Give Back
 
