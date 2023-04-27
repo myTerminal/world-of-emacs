@@ -38,7 +38,7 @@ Here is my attempt to list down all possible ways to obtain Emacs, at least the 
 
 On Windows, you can simply download their Emacs binary from [[http://ftp.gnu.org/gnu/emacs/windows][http://ftp.gnu.org/gnu/emacs/windows]] and place it in a directory on your disk.
 
-To run Emacs, you can execute the binary ~~bin\runemacs.exe~~. You can create a shortcut to this file and place it on your Desktop if you like and that goes with your preference.
+To run Emacs, you can execute the binary ~bin\runemacs.exe~. You can create a shortcut to this file and place it on your Desktop if you like and that goes with your preference.
 
 Optionally, you can add this location to your environment variable ~PATH~, so that you will be able to start it from a Command Prompt window.
 
